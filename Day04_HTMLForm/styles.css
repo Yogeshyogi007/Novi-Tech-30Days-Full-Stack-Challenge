@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.container{
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 100px;
+    box-shadow: 2px 2px 3px rgb(82, 81, 81);
+}
+.brand-logo{
+    background: url(../images/Pro.png);
+    background-size:contain;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+
+}
+.brand-title{
+    color: rgb(11, 208, 247);
+}
+input,button,label{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    box-sizing: border-box;
+}
+.input{
+    text-align: left;
+    margin-top: 10px;
+}
+label{
+    color: rgb(11, 208, 247);
+    text-align: left;
+}
+input{
+    padding: 10px;
+    box-shadow: 3px 3px 2px rgb(123, 122, 122);
+    border-radius: 10px;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
