@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dom Manipulation</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div id="jobListings">
+        <!-- Job listing will by done here -->
+    </div>
+    <div id="filters">
+        <label for="jobType">Job Type:</label>
+        <select id="jobType">
+            <option value="all">All</option>
+            <option value="fullTime">Full Time</option>
+            <option value="partTime">Part Time</option>
+        </select>
+    <label for="location">Location:</label>
+    <input type="text" id="location">
+
+    <label for="salary">Salary Range:</label>
+    <input type="range" id="salary" min="0" max="100000" step="5000" value="50000">
+    <span id="salaryValue">50000</span>
+    <button id="filterBtn">Apply Filter</button>
+
+    </div>
+    <script src="../JS/sript.js"></script>
+
+</body>
+</html>

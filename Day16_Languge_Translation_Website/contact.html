@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            margin: auto;
+            max-width: 600px;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input,textarea{
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" id="name">
+        <label>Email:</label>
+        <input type="email" id="email">
+    
+    <label>Message</label>
+    <textarea id="message" id="name">
+    </textarea>
+    <button>Submit</button>
+</form>
+
+<p id="demo"></p>
+    <script src="https:translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script>
+        function googleTranslateElementInit(){
+            new google.translate.TranslateElement(
+                {pagelanguage:'en'},'demo'
+            )
+        }
+    </script>
+    
+</body>
+</html>
